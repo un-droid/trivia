@@ -15,8 +15,8 @@ const transformApiResponseToQuestions = (apiResponse: ApiResponseItem[]): Questi
 
         return {
             body: questionObj.question,
-            options: options,
-            correctAnsIdx: correctAnsIdx,
+            options,
+            correctAnsIdx,
         };
     });
 }
